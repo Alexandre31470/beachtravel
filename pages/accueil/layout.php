@@ -1,5 +1,5 @@
 <?php
-require_once "../../components/navbar_items.php";
+require_once "components/navbar_items.php";
 
 ?>
 

@@ -1,3 +1,7 @@
+<?php
+ob_start();
+?>
+
 <section>
     <div id="projets">
 
@@ -110,3 +114,9 @@
         </div>
     </div>
 </section>
+
+<?php
+$content = ob_get_clean();
+require_once '../../pages/accueil/layout.php';
+
+?>
