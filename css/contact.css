@@ -1,0 +1,153 @@
+header {
+    text-align: center;
+    padding-bottom: 30px;
+    background-image: url('https://i0.wp.com/cms.digischool.fr/wp-content/uploads/2022/04/voyage-bts-min.jpeg?ssl=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+.title-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    text-align: center;
+    bottom: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+ul {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    left: 60%;
+    gap: 10px;
+
+}
+
+li {
+
+    list-style-type: none;
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: #ec850f;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    margin-top: 60px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a5a3a31f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #7f8c8d;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+label {
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #3498db;
+    font-size: 24px;
+}
+
+.social-links a:hover {
+    color: #2980b9;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #7f8c8d;
+}
