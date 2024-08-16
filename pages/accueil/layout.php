@@ -1,5 +1,5 @@
 <?php
-require_once "../../components/navbar_items.php";
+require_once "./components/navbar_items.php";
 
 ?>
 
@@ -51,11 +51,8 @@ require_once "../../components/navbar_items.php";
 			<p class="descripaccueil">Sur ce blog je partage des photos et commentaires de mes différents voyages dans
 				le monde .</p>
 		</section>
-
-
-
 	</div>
-
+	<?= $content ?>
 	<footer>
 
 		<section class="footer">

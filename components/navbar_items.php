@@ -7,12 +7,12 @@ $navbar_items =[
 
 ],
 [
-    "url"=>"ajoutArticle.php",
+    "url"=>"../articles/ajoutArticle.php",
     "label" =>"Ajout Article"
     
 ],
 [
-    "url"=>"formulaire.php",
+    "url"=>"../form/formulaire.php",
     "label" =>"Réservations"
 
 ],
@@ -22,7 +22,7 @@ $navbar_items =[
     
 ],
 [
-    "url"=>"login.php",
+    "url"=>"../connexion/login.php",
     "label" =>"Connexion"
     
 ],
