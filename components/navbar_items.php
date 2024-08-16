@@ -2,26 +2,29 @@
 
 $navbar_items =[
 [
-"url"=>"index.php",
+"url"=>"accueil.php",
 "label" =>"Accueil"
 
 ],
 [
-    "url"=>"create.php",
-    "label" =>"Créer"
+    "url"=>"ajoutArticle.php",
+    "label" =>"Ajout Article"
     
 ],
 [
-    "url"=>"light.php",
-    "label" =>"💫"
+    "url"=>"formulaire.php",
+    "label" =>"Réservations"
 
 ],
 [
-    "url"=>"dark.php",
-    "label" =>"🌩️"
+    "url"=>"contact.php",
+    "label" =>"Contact"
+    
+],
+[
+    "url"=>"login.php",
+    "label" =>"Connexion"
     
 ],
 ];
-
-
 ?>

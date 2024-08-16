@@ -15,10 +15,6 @@
 </head>
 <?php include '../../pages/accueil/header.php'; ?>
 <body>
-    
-
-    
-
     <div class="form-container">
         <h2>Formulaire de réservation de voyage</h2>
         <form id="reservationForm" action="formulaire.php" method="POST">
