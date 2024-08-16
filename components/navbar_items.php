@@ -2,12 +2,12 @@
 
 $navbar_items =[
 [
-"url"=>"accueil.php",
+"url"=>"../../pages/accueil/accueil.php",
 "label" =>"Accueil"
 
 ],
 [
-    "url"=>"../articles/ajoutArticle.php",
+    "url"=>"../../pages/articles/ajoutArticle.php",
     "label" =>"Ajout Article"
     
 ],
@@ -17,7 +17,7 @@ $navbar_items =[
 
 ],
 [
-    "url"=>"contact.php",
+    "url"=>"../accueil/contact.php",
     "label" =>"Contact"
     
 ],

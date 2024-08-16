@@ -1,5 +1,5 @@
 <?php
-require_once "./components/navbar_items.php";
+require_once "../../components/navbar_items.php";
 
 ?>
 
@@ -39,10 +39,10 @@ require_once "./components/navbar_items.php";
 		<section>
 			<div>
 				<audio controls loop muted>
-					<source src="../../music/Son-1.mp3" type="audio/mp3">
-					<source src="../../music/Son-2.mp3" type="audio/mp3">
-					<source src="../../music/Son-3.mp3" type="audio/mp3">
-					<source src="../../music/Son-4.mp3" type="audio/mp3">
+					<source src="../../public/music/Son-1.mp3" type="audio/mp3">
+					<source src="../../public/music/Son-2.mp3" type="audio/mp3">
+					<source src="../../public/music/Son-3.mp3" type="audio/mp3">
+					<source src="../../public/music/Son-4.mp3" type="audio/mp3">
 				</audio>
 			</div>
 
@@ -52,7 +52,7 @@ require_once "./components/navbar_items.php";
 				le monde .</p>
 		</section>
 	</div>
-	<?= $content ?>
+	<?= $content ?>   
 	<footer>
 
 		<section class="footer">

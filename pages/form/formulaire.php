@@ -1,20 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire de Réservation de Voyage</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+ES+Deco:wght@100..400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../../css/formulaire.css">
-    <link rel="icon" type="image/png" href="/pictures/favicon.png">
-</head>
-<?php include '../../pages/accueil/header.php'; ?>
-<body>
+<?php
+ob_start();
+?>
     <div class="form-container">
         <h2>Formulaire de réservation de voyage</h2>
         <form id="reservationForm" action="formulaire.php" method="POST">
@@ -62,7 +48,8 @@
         </form>
     </div>
 
+    <?php
+$content = ob_get_clean();
+require_once '../../pages/accueil/layout.php';
 
-</body>
-
-</html>
+?>
