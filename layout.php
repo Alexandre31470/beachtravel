@@ -48,7 +48,7 @@ require_once "components/navbar_items.php";
 				le monde .</p>
 		</section>
 	</div>
-	<?=$contents ?> 
+	<?= $contents ?>
 	<footer>
 
 		<section class="footer">
