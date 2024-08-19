@@ -116,6 +116,6 @@ ob_start();
 </section>
 
 <?php
-$contents = ob_get_clean();
+$content = ob_get_clean();
 require_once 'layout.php';
 ?> 

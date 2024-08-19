@@ -34,7 +34,7 @@ ob_start();
 </main>
 
 <?php
-$contents = ob_get_clean();
+$content = ob_get_clean();
 require_once 'layout.php';
 
 ?>
