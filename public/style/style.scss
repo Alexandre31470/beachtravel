@@ -1,0 +1,274 @@
+@import "./custom/connexion";
+@import "./custom/contact";
+@import "./custom/formulaire";
+
+
+/************************************************HEADER*****************************/
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background: white;
+	/* margin: 0px; */
+} 
+
+/**************************************** PAGE des Articles *************************/
+header{
+	text-align: center;
+	padding-bottom: 30px;
+	background-image: url('https://i0.wp.com/cms.digischool.fr/wp-content/uploads/2022/04/voyage-bts-min.jpeg?ssl=1');
+	background-repeat: no-repeat;
+	background-size: cover;
+  	background-position: center center;
+	height: 600px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.title-header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+section{
+	text-align: center;
+	margin-top: 50px;
+}
+h1{
+	margin-top: 0;
+	padding-top: 30px;
+	color: rgb(255, 176, 19)
+}
+
+/*************************** PAGE : Ajout Article****************************************************/
+
+.formulaire h2{
+color: rgb(255, 176, 19);
+text-align: center;
+padding: 40px;
+}
+
+.formulaire h2:hover{
+	font-size: 40px;
+	transition: 20ms;
+} 
+form{
+	text-align: center;
+}
+
+.formulaire input{
+	font-size: 20px;
+	height: 40px;
+	text-align: center;
+} 
+
+/**************************************************************************************************/
+
+h3{
+	font-size: 20px;
+}
+
+
+
+h4{
+	font-size: 2em;
+}
+
+/************************* NAVBAR  **************************************************************************/
+
+/* .nav-container{
+position: relative;	
+} */
+nav{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+flex-direction: row;
+gap: 30px;
+padding: 10px 0;
+}
+
+.link_to_page{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+
+}
+
+#email{
+	color: limegreen;
+}
+
+ul{
+	position: absolute; 
+	bottom:0;
+	display: flex; 
+	left: 60%;
+	gap: 10px;
+	
+}
+li{
+	
+	list-style-type: none;
+	margin: 10px;
+	font-size: 20px;
+}
+
+a:hover{
+color:#ec850f;
+}
+
+ .footer{
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(240, 237, 237);
+	border: 10px solid white;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.contener {
+    width: 80%;
+    margin: auto;
+}
+
+iframe#twitter-widget-0{
+	padding: 80px;
+	height: 800px;
+}
+
+table{
+	margin:auto;
+}
+
+th{
+	background-color: aquamarine;
+	border: 1px solid black;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+td{
+	border: 1px solid black;
+	font-weight: bold;
+	column-width: 300px;
+}
+
+
+
+#logo{
+margin-top: 0px;
+width: 50px;
+}
+
+
+#projet{
+display: flex;
+flex-wrap: wrap;
+
+}
+#picture-project img{
+width: 90%;	
+
+}
+
+/* Classes */
+
+.descripaccueil{
+font-size: 2em;
+font-weight: bold;
+color: rgb(255, 176, 19)
+}
+
+.separator{
+	width: 40px;
+ 	height: 1px;
+ 	margin: 15px auto;
+ 	display: block;
+ 	background-color: #999999;
+
+}
+
+
+.contener{
+	width: 80%;
+	margin: auto;
+}
+
+.projet{
+width: 400px;
+margin: 30px;
+display: inline-block;
+background: white;
+padding-bottom: 15px;
+border: 0px black solid;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) ;
+}
+
+.projet:hover{
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);	
+transition: 0.3s;
+}
+
+.projet img{
+	height: 266px;
+	width: 400px;
+}
+.projet span {
+	text-transform: uppercase;
+	display: block; 
+}
+
+.projet .date-project{
+font-size: 0.7em;
+
+}
+.picture{
+width: 400px;
+height: 266px;
+overflow: hidden;
+margin-bottom: 15px;
+}
+
+.picture-project img{
+width:80%;	
+}
+
+.picture-project video {
+width:80%;
+}
+
+
+
+
+/*POLICES*/
+
+ @font-face{
+ 	font-family: 'theblacklist';
+ 	src: url('../src/theblacklist.ttf') format('truetype');
+ }
+ 
+/* MEDIA */
+@media all and (max-width: 1000px){
+	.projet { width: 100%; margin: 15px auto; }
+	.projet img { width: 100%; min-width: auto; height: auto; }
+	.projet .picture { width: 100%; height: auto; }
+	header h2 { width: 90%; }
+}
+

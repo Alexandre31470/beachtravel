@@ -2,7 +2,7 @@
 
 $navbar_items =[
 [
-    "url"=>"accueil.php", 
+    "url"=>"index.php", 
     "label" =>"Accueil"
 ],
 [

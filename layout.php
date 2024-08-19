@@ -9,6 +9,7 @@ require_once "components/navbar_items.php";
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Beach Travel Blog</title>
 	<link rel="stylesheet" type="text/css" href="./public/style/style.css">
+	
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" type="image/png" href="./public/favicon/favicon.png">
@@ -21,13 +22,15 @@ require_once "components/navbar_items.php";
 		<span class="separator"></span>
 
 
-		<a href="accueil.php"><img src="./public/logo/pngegg.png" alt="logo" title="Ceci est mon logo"></a>
+		<a href="index.php"><img src="./public/logo/pngegg.png" alt="logo" title="Ceci est mon logo"></a>
 	</div>
+	<div class="nav-container">
 	<nav>
 		<?php foreach ($navbar_items as $link): ?>
 			<a href="<?= $link['url'] ?>" class="link_to_page"><?= $link['label'] ?></a>
 		<?php endforeach ?>
 	</nav>
+	</div>
 </header>
 <body>
 <div class="contener">

@@ -1,6 +1,6 @@
-<!-- <?php
+<?php
 ob_start();
-?> -->
+?> 
 
 <section>
     <div id="projets">
@@ -114,9 +114,8 @@ ob_start();
         </div>
     </div>
 </section>
-<!-- 
+
 <?php
 $contents = ob_get_clean();
 require_once 'layout.php';
-
-?> -->
+?> 
