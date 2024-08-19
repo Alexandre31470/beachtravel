@@ -24,9 +24,7 @@ ob_start();
 
 </section>
 
-
 <?php
-$content = ob_get_clean();
-require_once '../../pages/accueil/layout.php';
-
+$contents = ob_get_clean();
+require_once 'layout.php';
 ?>

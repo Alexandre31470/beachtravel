@@ -1,1 +1,1 @@
-<?php require_once './pages/accueil/layout.php'?>;
+<?php require_once 'layout.php'?>;

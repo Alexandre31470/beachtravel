@@ -8,10 +8,10 @@ require_once "components/navbar_items.php";
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Beach Travel Blog</title>
-	<link rel="stylesheet" type="text/css" href="../../public/style/style.css">
+	<link rel="stylesheet" type="text/css" href="./public/style/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width">
-	<link rel="icon" type="image/png" href="../../public/logo/pngegg.png">
+	<link rel="icon" type="image/png" href="./public/favicon/favicon.png">
 </head>
 <header>
 	<div class="title-header">
@@ -21,7 +21,7 @@ require_once "components/navbar_items.php";
 		<span class="separator"></span>
 
 
-		<a href="../../pages/accueil/accueil.php"><img src="../../public/logo/pngegg.png" alt="logo" title="Ceci est mon logo"></a>
+		<a href="accueil.php"><img src="./public/logo/pngegg.png" alt="logo" title="Ceci est mon logo"></a>
 	</div>
 	<nav>
 		<?php foreach ($navbar_items as $link): ?>
@@ -29,18 +29,16 @@ require_once "components/navbar_items.php";
 		<?php endforeach ?>
 	</nav>
 </header>
-
 <body>
-
-	<div class="contener">
+<div class="contener">
 		<!--Présentation-->
 		<section>
 			<div>
 				<audio controls loop muted>
-					<source src="../../public/music/Son-1.mp3" type="audio/mp3">
-					<source src="../../public/music/Son-2.mp3" type="audio/mp3">
-					<source src="../../public/music/Son-3.mp3" type="audio/mp3">
-					<source src="../../public/music/Son-4.mp3" type="audio/mp3">
+					<source src="./public/music/Son-1.mp3" type="audio/mp3">
+					<source src="./public/music/Son-2.mp3" type="audio/mp3">
+					<source src="./public/music/Son-3.mp3" type="audio/mp3">
+					<source src="./public/music/Son-4.mp3" type="audio/mp3">
 				</audio>
 			</div>
 
@@ -50,7 +48,7 @@ require_once "components/navbar_items.php";
 				le monde .</p>
 		</section>
 	</div>
-	<?= $content ?>   
+	<?=$contents ?> 
 	<footer>
 
 		<section class="footer">
