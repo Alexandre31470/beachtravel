@@ -1,8 +1,6 @@
 <?php
 require_once "components/navbar_items.php";
-
 ?>
-
 <!DOCTYPE html>
 <html>
 
