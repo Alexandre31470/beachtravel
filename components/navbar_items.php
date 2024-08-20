@@ -12,7 +12,7 @@ $navbar_items =[
 ],
 [
     "url"=>"formulaire.php", 
-    "label" =>"Réservations"
+    "label" =>"Réservation"
 
 ],
 [
@@ -21,7 +21,7 @@ $navbar_items =[
     
 ],
 [
-    "url"=>"./connexion/login.php", 
+    "url"=>"connexion/login.php", 
     "label" =>"Connexion"
     
 ],

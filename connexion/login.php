@@ -3,7 +3,6 @@ ob_start();
 ?>
 
 <div class="container">
-
     <div class="login-container">
         <a href="../index.php">Revenir à l'accueil</a>
         <form id="loginForm" onsubmit="return validateLoginForm()">
@@ -17,12 +16,12 @@ ob_start();
                 <input type="password" id="loginPassword" name="password" required>
             </div>
             <button type="submit">Se connecter</button>
-            <p>Pas encore de compte ? <a href="signup.html">S'inscrire</a></p>
+            <p>Pas encore de compte ? <a href="signup.php">S'inscrire</a></p>
 
         </form>
     </div>
 </div>
-<script src="scripts.js"></script>
+<script src="scripts.js"></script> 
 
 <?php
 $content = ob_get_clean();

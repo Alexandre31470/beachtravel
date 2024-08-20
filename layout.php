@@ -1,7 +1,6 @@
 <?php
 require_once "components/navbar_items.php"; 
-require_once "./components/card.php";
-// require_once 'layout.php';
+require_once "components/card.php";
 ?>
 <!DOCTYPE html>
 <html>
