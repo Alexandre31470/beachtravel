@@ -10,7 +10,6 @@ require_once "components/card.php";
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Beach Travel Blog</title>
 	<link rel="stylesheet" type="text/css" href="./public/style/style.css">
-	
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" type="image/png" href="./public/favicon/favicon.png">
@@ -75,7 +74,9 @@ require_once "components/card.php";
 
 
 		<section class="footer">
-			<h3>Nous Contacter</h3>
+
+			<h3 class="h3-footer">BEACH TRAVEL</h3>
+			<p>Nous Contacter</p>
 
 			<div id="contact">
 
@@ -84,7 +85,7 @@ require_once "components/card.php";
 				</p>
 
 			</div>
-			<span>2023 &copy; Tous droits réservés à Beach Travel</span>
+			<span>2024 &copy; Tous droits réservés à Beach Travel</span>
 		</section>
 	</footer>
 

@@ -1,4 +1,30 @@
-body{
-    display: flex;
-    flex-direction: column;
+header{
+	text-align: center;
+	padding-bottom: 30px;
+	background-image: url('https://i0.wp.com/cms.digischool.fr/wp-content/uploads/2022/04/voyage-bts-min.jpeg?ssl=1');
+	background-repeat: no-repeat;
+	background-size: cover;
+  	background-position: center center;
+	height: 600px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.title-header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+section{
+	text-align: center;
+	margin-top: 50px;
+}
+h1{
+	margin-top: 0;
+	padding-top: 30px;
+	color: rgb(255, 176, 19)
 }

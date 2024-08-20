@@ -21,9 +21,11 @@ ob_start();
         </form>
     </div>
 </div>
-<script src="scripts.js"></script> 
+
 
 <?php
 $content = ob_get_clean();
 require_once '../layout.php';
 ?>
+
+<script src="scripts.js"></script> 

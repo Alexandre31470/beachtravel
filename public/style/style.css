@@ -1,81 +1,3 @@
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.login-container,
-.signup-container {
-  background-color: #c9eb93;
-  width: 350px;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-input {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-button {
-  width: 100%;
-  padding: 10px;
-  background-color: #28a745;
-  border: none;
-  color: white;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #218838;
-}
-
-p {
-  text-align: center;
-  margin-top: 10px;
-}
-
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-/************************************************HEADER*****************************/
-body {
-  font-family: "Roboto", sans-serif;
-  background: white;
-  /* margin: 0px; */
-}
-
-/**************************************** PAGE des Articles *************************/
 header {
   text-align: center;
   padding-bottom: 30px;
@@ -107,6 +29,13 @@ h1 {
   margin-top: 0;
   padding-top: 30px;
   color: rgb(255, 176, 19);
+}
+
+/************************************************HEADER*****************************/
+body {
+  font-family: "Roboto", sans-serif;
+  background: rgb(59, 59, 59);
+  color: white;
 }
 
 /*************************** PAGE : Ajout Article****************************************************/
@@ -141,22 +70,28 @@ h4 {
 }
 
 /************************* NAVBAR  **************************************************************************/
-/* .nav-container{
-position: relative;	
-} */
 nav {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  align-self: flex-end;
   flex-direction: row;
   gap: 30px;
   padding: 10px 0;
+  margin-top: 180px;
 }
 
 .link_to_page {
   text-decoration: none;
   color: #000;
   font-size: 25px;
+}
+
+a.link_to_page:hover {
+  text-decoration: underline;
+  font-size: 30px;
+  background-color: rgba(243, 195, 38, 0.336);
+  transition: all 0.9ms;
 }
 
 a {
@@ -182,7 +117,7 @@ li {
 }
 
 a:hover {
-  color: #ec850f;
+  font-size: 20px;
 }
 
 .footer {
@@ -191,17 +126,15 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(240, 237, 237);
-  border: 10px solid white;
 }
 
-* {
-  box-sizing: border-box;
+.h3-footer {
+  font-size: 40px;
 }
 
-.contener {
-  width: 80%;
-  margin: auto;
+.h3-footer:hover {
+  color: #ec850f;
+  text-decoration: underline;
 }
 
 iframe#twitter-widget-0 {
@@ -261,6 +194,7 @@ td {
   margin: auto;
 }
 
+/******* CARDS ******/
 .projet {
   width: 400px;
   margin: 30px;
@@ -270,10 +204,11 @@ td {
   border: 0px black solid;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(236, 225, 78, 0.425), 0 3px 6px rgba(247, 169, 25, 0.521);
 }
 
 .projet:hover {
+  background-color: rgba(214, 236, 15, 0.4235294118);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: 0.3s;
 }
@@ -307,12 +242,14 @@ td {
   width: 80%;
 }
 
-/*POLICES*/
-@font-face {
-  font-family: "theblacklist";
-  src: url("../src/theblacklist.ttf") format("truetype");
+/**FOOTER**/
+section.footer {
+  height: 300px;
+  background: rgb(59, 59, 59);
+  color: white;
 }
-/* MEDIA */
+
+/* Media Queries */
 @media all and (max-width: 1000px) {
   .projet {
     width: 100%;
