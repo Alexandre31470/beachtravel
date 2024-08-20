@@ -1,5 +1,7 @@
 <?php
-require_once "components/navbar_items.php";
+require_once "components/navbar_items.php"; 
+require_once "./components/card.php";
+// require_once 'layout.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,8 +53,27 @@ require_once "components/navbar_items.php";
 				le monde .</p>
 		</section>
 	</div>
-	<?= $content ?>
+	<?php if(isset($content)){echo $content;} ?>
+
+	
+	<?php if (isset($show_cards) && $show_cards): ?> 
+<section>
+    <div id="projets">
+        <?php foreach ($cards as $card): ?>
+            <div class="projet">
+                <a href="<?= $card['url'] ?>" target="_blank">
+                    <div class="picture">
+                        <img src="<?= $card['image'] ?>" alt="<?= $card['alt'] ?>">
+                    </div>
+                    <span><?= $card['label'] ?></span>
+                </a>
+            </div>
+        <?php endforeach; ?>
+    </div>
+</section>
+<?php endif; ?>
 	<footer>
+
 
 		<section class="footer">
 			<h3>Nous Contacter</h3>
