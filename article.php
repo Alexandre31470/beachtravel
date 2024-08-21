@@ -1,9 +1,10 @@
 <?php
 ob_start();
 ?>
-<section>
+<section class="introduction">
         <h2>Les Plages de Bali</h2>
         <p>Bali est réputée pour ses plages magnifiques, chacune offrant une expérience unique.</p>
+        
         <ul>
             <li><strong>Kuta Beach</strong> : Connue pour son ambiance animée, Kuta est l'endroit idéal pour les
                 amateurs de surf et ceux qui cherchent à profiter de la vie nocturne.</li>
@@ -12,6 +13,7 @@ ob_start();
             <li><strong>Seminyak</strong> : Seminyak offre une atmosphère plus sophistiquée avec ses restaurants haut de
                 gamme, ses boutiques de mode et ses clubs de plage élégants.</li>
         </ul>
+       
     </section>
     <section>
         <h2>Les Paysages Naturels</h2>

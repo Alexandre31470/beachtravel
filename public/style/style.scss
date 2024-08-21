@@ -1,19 +1,20 @@
-// @import "custom/connexion";
-// @import "./custom/contact";
-// @import "./custom/formulaire";
 @import "custom/article";
+// @import "custom/connexion";
+@import "./custom/contact";
+@import "./custom/formulaire";
+
 
 
 /************************************************HEADER*****************************/
 
 body{
 	font-family: 'Roboto', sans-serif;
-	background: rgb(59, 59, 59);
+	background: rgb(104, 103, 103);
 	color: white;
 } 
 
 
-/*************************** PAGE : Ajout Article****************************************************/
+/*************************** PAGE : AJOUT Article****************************************************/
 
 .formulaire h2{
 color: rgb(255, 176, 19);
@@ -21,20 +22,40 @@ text-align: center;
 padding: 40px;
 }
 
-.formulaire h2:hover{
-	font-size: 40px;
-	transition: 20ms;
-} 
+
 form{
 	text-align: center;
 }
 
-.formulaire input{
+section.formulaire input,
+section.formulaire textarea{
 	font-size: 20px;
-	height: 40px;
+	height: 60px;
 	text-align: center;
+	border-radius: 15px;
+	width:80%;
+	max-width: 600px;
+	box-sizing: border-box;
+	margin: 10px auto;
+
 } 
 
+section.formulaire label{
+	height: 30px;
+}
+#contenu{
+	height: 300px;
+	padding: 10px;
+}
+
+input.btn{
+	width: 80%; /* La même largeur que les autres éléments */
+    max-width: 200px; /* Limite la largeur maximale du bouton */
+    margin: 40px auto;
+    background-color: #1bbfbf;
+    border-radius: 15px;
+    height: 50px;
+}
 /**************************************************************************************************/
 
 h3{
@@ -68,8 +89,8 @@ margin-top: 180px;
 a.link_to_page:hover{
 	text-decoration: underline;
 	font-size: 30px;
-	background-color: rgba(243, 195, 38, 0.336);
-	transition: all 0.9ms;
+	background-color: rgba(243, 190, 14, 0.336);
+	transition: 200ms;
 }
 
 a{
@@ -184,13 +205,13 @@ padding-bottom: 15px;
 border: 0px black solid;
 border-radius: 10px;
 overflow: hidden;
-box-shadow: 0 3px 6px rgba(236, 225, 78, 0.425), 0 3px 6px rgba(247, 169, 25, 0.521) ;
+
 
 }
 
 .projet:hover{
-background-color: #d6ec0f6c;
-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);	
+background-color: #f5f790;
+box-shadow: 0 20px 20px rgb(19, 19, 19);
 transition: 0.3s;
 }
 
@@ -228,6 +249,17 @@ section.footer{
 	background: rgb(59, 59, 59);
 	color: white;
 
+}
+
+.social-links a {
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+
+}
+.social-links a:hover {
+    color:aqua;
+    
 }
 /* Media Queries */
 @media all and (max-width: 1000px){

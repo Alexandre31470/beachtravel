@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   text-align: center;
   padding-bottom: 30px;
@@ -31,33 +32,173 @@ h1 {
   color: rgb(255, 176, 19);
 }
 
+section.introduction {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formulaire input,
+.formulaire label,
+.formulaire button {
+  width: 100%;
+  max-width: 700px;
+  height: 60px;
+  box-sizing: border-box;
+  margin: 5px 0;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+.formulaire textarea {
+  width: 100%;
+  max-width: 700px;
+  height: 120px;
+  box-sizing: border-box;
+  margin: 5px 0;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Roboto";
+  margin-bottom: 60px;
+}
+
+button {
+  background-color: #1bbfbf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#reservationForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px; /* Augmente la largeur maximale du formulaire */
+  padding: 5px; /* Réduit le padding interne du formulaire */
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Les groupes de champs prennent toute la largeur */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea,
+.form-group button {
+  width: 100%; /* Largeur uniforme pour tous les éléments */
+  max-width: 700px; /* Limite maximale pour la largeur */
+  height: 60px; /* Hauteur uniforme pour les inputs, selects et le bouton */
+  box-sizing: border-box;
+  margin: 5px 0; /* Espacement entre les éléments */
+  border-radius: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+.form-group label {
+  height: 50px;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+.form-group textarea {
+  height: auto;
+  min-height: 200px; /* Donne plus de hauteur au textarea */
+  resize: vertical; /* Permet à l'utilisateur de redimensionner verticalement le textarea */
+}
+
+button {
+  background-color: #1bbfbf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #17a2a2;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* S'assure que le conteneur prend toute la hauteur de la fenêtre */
+  padding: 10px;
+}
+
 /************************************************HEADER*****************************/
 body {
   font-family: "Roboto", sans-serif;
-  background: rgb(59, 59, 59);
+  background: rgb(104, 103, 103);
   color: white;
 }
 
-/*************************** PAGE : Ajout Article****************************************************/
+/*************************** PAGE : AJOUT Article****************************************************/
 .formulaire h2 {
   color: rgb(255, 176, 19);
   text-align: center;
   padding: 40px;
 }
 
-.formulaire h2:hover {
-  font-size: 40px;
-  transition: 20ms;
-}
-
 form {
   text-align: center;
 }
 
-.formulaire input {
+section.formulaire input,
+section.formulaire textarea {
   font-size: 20px;
-  height: 40px;
+  height: 60px;
   text-align: center;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 600px;
+  box-sizing: border-box;
+  margin: 10px auto;
+}
+
+section.formulaire label {
+  height: 30px;
+}
+
+#contenu {
+  height: 300px;
+  padding: 10px;
+}
+
+input.btn {
+  width: 80%; /* La même largeur que les autres éléments */
+  max-width: 200px; /* Limite la largeur maximale du bouton */
+  margin: 40px auto;
+  background-color: #1bbfbf;
+  border-radius: 15px;
+  height: 50px;
 }
 
 /**************************************************************************************************/
@@ -90,8 +231,8 @@ nav {
 a.link_to_page:hover {
   text-decoration: underline;
   font-size: 30px;
-  background-color: rgba(243, 195, 38, 0.336);
-  transition: all 0.9ms;
+  background-color: rgba(243, 190, 14, 0.336);
+  transition: 200ms;
 }
 
 a {
@@ -204,12 +345,11 @@ td {
   border: 0px black solid;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 3px 6px rgba(236, 225, 78, 0.425), 0 3px 6px rgba(247, 169, 25, 0.521);
 }
 
 .projet:hover {
-  background-color: rgba(214, 236, 15, 0.4235294118);
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background-color: #f5f790;
+  box-shadow: 0 20px 20px rgb(19, 19, 19);
   transition: 0.3s;
 }
 
@@ -247,6 +387,16 @@ section.footer {
   height: 300px;
   background: rgb(59, 59, 59);
   color: white;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.social-links a:hover {
+  color: aqua;
 }
 
 /* Media Queries */

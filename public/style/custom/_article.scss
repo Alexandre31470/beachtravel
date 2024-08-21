@@ -28,3 +28,8 @@ h1{
 	padding-top: 30px;
 	color: rgb(255, 176, 19)
 }
+
+section.introduction{
+	display: flex;
+	flex-direction: column;
+}

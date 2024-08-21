@@ -4,7 +4,7 @@ ob_start();
 
 <div class="container">
     <div class="login-container">
-        <a href="../index.php">Revenir à l'accueil</a>
+        <!-- <a href="../index.php">Revenir à l'accueil</a> -->
         <form id="loginForm" onsubmit="return validateLoginForm()">
             <h2>Connexion</h2>
             <div class="form-group">

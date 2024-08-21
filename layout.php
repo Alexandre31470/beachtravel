@@ -13,6 +13,8 @@ require_once "components/card.php";
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" type="image/png" href="./public/favicon/favicon.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <header>
 	<div class="title-header">
@@ -73,21 +75,28 @@ require_once "components/card.php";
 	<footer>
 
 
-		<section class="footer">
+		<!-- <section class="footer"> -->
 
 			<h3 class="h3-footer">BEACH TRAVEL</h3>
+			<div class="social-links">
+				
+				<p>Suivez-nous sur les réseaux sociaux :</p>
+				<a href="https://www.facebook.com/BeachTravelBlog" target="_blank"><i class="fab fa-facebook-f"></i>Facebook</a>
+				<a href="https://www.instagram.com/BeachTravelBlog" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+				<a href="https://www.twitter.com/BeachTravelBlog" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+			</div>
+			<!-- </section> -->
 			<p>Nous Contacter</p>
 
 			<div id="contact">
 
-				<p>Si vous voulez me contacter, n'hésitez pas à m'envoyer un e-mail à
+				<p>Si vous voulez me contacter, n'hésitez pas à m'envoyer un e-mail à :
 					<b><a id="email" href="mailto:contact@beachtravel.com"> <br>contact@beachtravel.com </a></b>
 				</p>
 
 			</div>
-			<span>2024 &copy; Tous droits réservés à Beach Travel</span>
-		</section>
-	</footer>
+			<span>2024 &copy Tous droits réservés à Beach Travel</span>
+		</footer>
 
 </body>
 
