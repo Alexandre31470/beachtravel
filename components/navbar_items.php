@@ -21,7 +21,7 @@ $navbar_items =[
     
 ],
 [
-    "url"=>"connexion/login.php", 
+    "url"=>"login.php", 
     "label" =>"Connexion"
     
 ],
