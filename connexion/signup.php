@@ -28,6 +28,6 @@
             </form>
         </div>
     </div>
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
