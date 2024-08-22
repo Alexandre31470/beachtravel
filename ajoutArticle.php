@@ -1,11 +1,14 @@
+
+
 <?php
 ob_start();
 ?>
+ 
 
 <section class="formulaire">
-	<h2>Ajouter un Article</h1>
+	<h2>Ajouter un Article</h2>
 
-		<form id="add-article" method="post" action="ajoutArticle.php">
+		<form id="add-article" method="post" action="ajoutArticlebdd.php">
 			<label for="titre">Titre :</label><br>
 			<input type="text" id="titre" name="titre" placeholder="Entrez votre titre" required><br><br>
 

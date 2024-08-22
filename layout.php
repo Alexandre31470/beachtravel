@@ -1,7 +1,7 @@
 <?php
 require_once "components/navbar_items.php"; 
 require_once "components/card.php";
-require_once "fonctions/utilities.php"
+// require_once "fonctions/utilities.php"
 ?>
 <!DOCTYPE html>
 <html>
@@ -82,9 +82,9 @@ require_once "fonctions/utilities.php"
 			<div class="social-links">
 				
 				<p>Suivez-nous sur les réseaux sociaux :</p>
-				<a href="https://www.facebook.com/BeachTravelBlog" target="_blank"><i class="fab fa-facebook-f"></i>Facebook</a>
-				<a href="https://www.instagram.com/BeachTravelBlog" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
-				<a href="https://www.twitter.com/BeachTravelBlog" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+				<a href="https://www.facebook.com/BeachTravelBlog" target="_blank"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://www.instagram.com/BeachTravelBlog" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.twitter.com/BeachTravelBlog" target="_blank"><i class="fab fa-twitter"></i></a>
 			</div>
 			<!-- </section> -->
 			<p>Nous Contacter</p>

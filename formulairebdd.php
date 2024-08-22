@@ -43,7 +43,7 @@ try {
 
 // Exécuter la requête
 if ($stmt->execute()) {
-    echo "<script>alert('Réservation enregistrée avec succès'); window.location.href='accueil.html';</script>";
+    echo "<script>alert('Réservation enregistrée avec succès'); window.location.href='index.php';</script>";
 } else {
     echo "Échec de l'enregistrement de la réservation.";
 }
@@ -55,10 +55,5 @@ if ($stmt->execute()) {
 } catch(PDOException $e) {
     echo "<script>alert('Erreur: " . $e->getMessage() . "'); window.history.back();</script>";
 }
-
-// Fermer la connexion
-$conn = null;
-
-
 ?>
 

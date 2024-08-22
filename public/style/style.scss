@@ -251,14 +251,23 @@ section.footer{
 
 }
 
+i{
+	height: 20px;
+	width: 20px;
+}
 .social-links a {
     text-decoration: none;
+	background-color: white;
     color:black;
     padding: 10px;
-
+	border: 1px solid black;
+	border-radius: 10px;
+	// margin-bottom: 40px;
+	
 }
 .social-links a:hover {
-    color:aqua;
+    color:#1bbfbf;
+	
     
 }
 /* Media Queries */

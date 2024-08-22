@@ -14,6 +14,11 @@ try {
     $contenu = $_POST['contenu'];
     $auteur = $_POST['auteur'];
     $date_creation = $_POST['date_creation'];
+
+    // Vérification des valeurs récupérées
+    if (!$titre || !$contenu || !$auteur || !$date_creation) {
+        throw new Exception('Veuillez remplir tous les champs.');
+    }
     
 
     // Préparer et exécuter la requête SQL en utilisant des requêtes préparées
@@ -28,7 +33,7 @@ try {
     // Exécuter la requête
     $stmt->execute();
 
-    echo "<script>alert('Article créé avec succès'); window.location.href='/pages/accueil/accueil.html';</script>";
+    echo "<script>alert('Article créé avec succès'); window.location.href='index.php';</script>";
     
 //  catch(PDOException $e) {
 //     echo "<script>alert('Erreur: " . $e->getMessage() . "'); window.history.back();</script>";
@@ -37,8 +42,4 @@ try {
 }catch(PDOException $e) {
     echo "<script>alert('Erreur: " . addslashes($e->getMessage()) . "'); window.history.back();</script>";
 }
-// Fermer la connexion
-$conn = null;
-
-
 ?>

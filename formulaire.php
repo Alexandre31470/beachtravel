@@ -1,9 +1,11 @@
 <?php
+echo"test";
+print_r($_POST);
 ob_start();
 ?>
     <div class="form-container">
         <h2>Formulaire de réservation de voyage</h2>
-        <form id="reservationForm" action="formulaire.php" method="POST">
+        <form id="reservationForm" action="formulairebdd.php" method="POST">
             <div class="form-group">
                 <label for="nom">Nom :</label>
                 <input type="text" id="nom" name="nom" required>
