@@ -37,6 +37,10 @@ section.introduction {
   flex-direction: column;
 }
 
+button {
+  background-color: yellow;
+}
+
 body {
   text-align: center;
 }
@@ -281,24 +285,6 @@ a:hover {
 iframe#twitter-widget-0 {
   padding: 80px;
   height: 800px;
-}
-
-table {
-  margin: auto;
-}
-
-th {
-  background-color: aquamarine;
-  border: 1px solid black;
-  font-size: x-large;
-  font-weight: bold;
-}
-
-td {
-  border: 1px solid black;
-  font-weight: bold;
-  -moz-column-width: 300px;
-       column-width: 300px;
 }
 
 #logo {

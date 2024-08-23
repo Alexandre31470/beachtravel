@@ -1,7 +1,7 @@
-@import "custom/article";
-// @import "custom/connexion";
-@import "./custom/contact";
-@import "./custom/formulaire";
+@import "style/custom/article";
+@import "style/custom/contact";
+@import "style/custom/formulaire";
+@import "/public/style/custom/connexion"; 
 
 
 
@@ -140,23 +140,6 @@ font-size: 20px;
 iframe#twitter-widget-0{
 	padding: 80px;
 	height: 800px;
-}
-
-table{
-	margin:auto;
-}
-
-th{
-	background-color: aquamarine;
-	border: 1px solid black;
-	font-size: x-large;
-	font-weight: bold;
-}
-
-td{
-	border: 1px solid black;
-	font-weight: bold;
-	column-width: 300px;
 }
 
 #logo{

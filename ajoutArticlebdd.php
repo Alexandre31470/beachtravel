@@ -34,10 +34,7 @@ try {
     $stmt->execute();
 
     echo "<script>alert('Article créé avec succès'); window.location.href='index.php';</script>";
-    
-//  catch(PDOException $e) {
-//     echo "<script>alert('Erreur: " . $e->getMessage() . "'); window.history.back();</script>";
-// }
+
 
 }catch(PDOException $e) {
     echo "<script>alert('Erreur: " . addslashes($e->getMessage()) . "'); window.history.back();</script>";

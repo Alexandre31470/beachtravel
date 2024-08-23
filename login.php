@@ -14,7 +14,7 @@ ob_start();
                 <label for="loginPassword">Mot de passe:</label>
                 <input type="password" id="loginPassword" name="password" required>
             </div>
-            <button type="submit">Se connecter</button>
+            <button id="btn-connect" type="submit">Se connecter</button>
             <p>Pas encore de compte ? <a href="signup.php">S'inscrire</a></p>
 
         </form>
