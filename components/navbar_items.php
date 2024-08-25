@@ -11,6 +11,11 @@ $navbar_items =[
     
 ],
 [
+    "url"=>"updateArticle.php", 
+    "label" =>"Modifier Article"
+    
+],
+[
     "url"=>"formulaire.php", 
     "label" =>"Réservation"
 
