@@ -4,6 +4,7 @@
 
 $cards = [
     [
+        'id_article' => 1,
         'url' => 'article.php',
         'image' => 'public/pictures/bali.jpg',
         'alt' => 'Image Bali',

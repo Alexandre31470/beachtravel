@@ -12,7 +12,7 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // Requête SQL pour récupérer les données de la table articles
-    $sql = "SELECT id, titre, contenu, auteur, date_creation, image_url FROM articles";
+    $sql = "SELECT id, titre, pays, contenu, auteur, date_creation, image_url FROM articles";
     $stmt = $conn->prepare($sql);
     $stmt->execute();
 

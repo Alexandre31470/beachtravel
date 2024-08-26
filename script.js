@@ -3,6 +3,8 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
     // Empêcher la soumission du formulaire par défaut
     event.preventDefault();
 
+    
+
     // Récupérer les valeurs des champs du formulaire
     const username = document.getElementById('signupUsername').value;
     const password = document.getElementById('signupPassword').value;
@@ -48,35 +50,5 @@ function validateEmail(email) {
     return emailRegex.test(email);
 }
 
-// function validateLoginForm() {
-//     const username = document.getElementById("loginUsername").value;
-//     const password = document.getElementById("loginPassword").value;
 
-//     if (username === "" || password === "") {
-//         alert("Veuillez remplir tous les champs.");
-//         return false;
-//     }
 
-//     // Simuler la connexion réussie
-//     alert("Connexion réussie.");
-//     // Rediriger vers une page d'accueil ou tableau de bord
-//     // window.location.href = "dashboard.html";
-//     return false;
-// }
-
-// function validateSignupForm() {
-//     const username = document.getElementById("signupUsername").value;
-//     const password = document.getElementById("signupPassword").value;
-//     const email = document.getElementById("signupEmail").value;
-
-//     if (username === "" || password === "" || email === "") {
-//         alert("Veuillez remplir tous les champs.");
-//         return false;
-//     }
-
-//     // Simuler l'inscription réussie
-//     alert("Inscription réussie. Vous pouvez maintenant vous connecter.");
-//     // Rediriger vers la page de connexion
-//     window.location.href = "login.html";
-//     return false;
-// }
